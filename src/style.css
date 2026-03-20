@@ -1,0 +1,106 @@
+/* 🌈 Color Variables */
+:root {
+  --primary: #2563eb;
+  --secondary: #10b981;
+
+  --high-risk: #ef4444;
+  --medium-risk: #f59e0b;
+  --low-risk: #22c55e;
+
+  --bg: #f9fafb;
+  --card: #ffffff;
+  --text: #1f2937;
+}
+
+/* 🌍 Global Styles */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background-color: var(--bg);
+  color: var(--text);
+}
+
+/* 📦 Container */
+.container {
+  max-width: 800px;
+  margin: auto;
+  padding: 20px;
+  text-align: center;
+}
+
+/* 🧾 Card */
+.card {
+  background: var(--card);
+  padding: 20px;
+  margin: 15px 0;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* 🔤 Typography */
+h1 {
+  font-size: 32px;
+  font-weight: bold;
+  color: var(--primary);
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+h3 {
+  font-size: 18px;
+  margin-bottom: 8px;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* 🔘 Buttons */
+.button {
+  background-color: var(--primary);
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+.button:hover {
+  opacity: 0.9;
+}
+
+/* 📥 Inputs */
+input {
+  padding: 10px;
+  width: 200px;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  margin: 5px 0;
+}
+
+/* 🚦 Risk Colors */
+.high {
+  color: var(--high-risk);
+  font-weight: bold;
+}
+
+.medium {
+  color: var(--medium-risk);
+  font-weight: bold;
+}
+
+.low {
+  color: var(--low-risk);
+  font-weight: bold;
+}
+
+/* ✨ Extra Styling */
+.section-title {
+  margin-top: 20px;
+  color: var(--secondary);
+}
