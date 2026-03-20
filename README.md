@@ -1,16 +1,50 @@
-# React + Vite
+# WorkSafe AI – AI-Powered Income Protection for Gig Workers
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Problem
+Gig workers lose income due to unpredictable events like heavy rain, extreme heat, pollution, app downtime, or curfews.  
 
-Currently, two official plugins are available:
+Currently, no system automatically protects their weekly earnings.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Solution
+WorkSafe AI monitors work conditions and calculates weekly income loss.  
 
-## React Compiler
+It automatically triggers payouts when triggers like rain or high temperature occur, giving gig workers financial protection without manual claims.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Tech Stack
+- Frontend: React.js  
+- Backend: Java (Spring Boot)  
+- Database: MySQL  
 
-## Expanding the ESLint configuration
+## Features
+- Weekly income protection plans  
+- Real-time monitoring of triggers  
+- Automatic payout calculation  
+- Simple dashboard for workers  
+- Fraud prevention (GPS validation, duplicate check)  
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Market Crash / Fail-Safe Handling
+If automatic calculation fails:  
+- Manual override option for admin  
+- Data backup to prevent loss  
+
+## AI Approach
+The system uses simple rule-based logic in Java to detect triggers and calculate payouts.  
+
+- High rainfall, extreme temperature, or app downtime triggers payouts.  
+- The logic simulates AI behavior and can be upgraded to real ML in the future.  
+
+## Application Preview
+1. Worker Dashboard – Shows weekly hours, premium, coverage, and risk  
+2. Premium Calculator – Calculate weekly loss and recommended premium  
+3. Risk Analysis – Shows high/low risk based on triggers  
+4. Claim Status – Shows eligible payouts  
+5. Policy Details – Displays plan and coverage  
+6. Trigger Input – Record events like rain or app downtime  
+7. Notifications – Alerts for high-risk days and payouts
+
+## Application Preview
+
+<img width="1913" height="913" alt="Screenshot 2026-03-20 111258" src="https://github.com/user-attachments/assets/c1fc82f2-370a-44a3-b19c-dfe4c6d9116c" />
+
+<img width="1915" height="936" alt="Screenshot 2026-03-20 111317" src="https://github.com/user-attachments/assets/e48525ea-480b-476f-9b7e-24d35e852054" />
+
