@@ -44,7 +44,7 @@ The system uses simple rule-based logic in Java to detect triggers and calculate
 
 ## Application Preview
 
-<img width="1913" height="913" alt="Screenshot 2026-03-20 111258" src="https://github.com/user-attachments/assets/c1fc82f2-370a-44a3-b19c-dfe4c6d9116c" />
+<img width="1919" height="918" alt="Screenshot 2026-03-20 150951" src="https://github.com/user-attachments/assets/cf18a0aa-63ba-40c7-b371-f41ea690d7dd" />
 
 <img width="1915" height="936" alt="Screenshot 2026-03-20 111317" src="https://github.com/user-attachments/assets/e48525ea-480b-476f-9b7e-24d35e852054" />
 
